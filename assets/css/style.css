@@ -1,0 +1,96 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logos {
+  height: 15rem;
+}
+
+.jumbo-text {
+  font-weight: 600;
+  margin-top: .2rem;
+}
+
+.section-spacing {
+  padding-top: 4rem !important;
+  padding-bottom: 3rem !important;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 300px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.jumbo-parallax {
+  min-height: 500px;
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+.logo-jumbotron {
+  height: 9rem;
+  display: block;
+  margin: auto;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+
+.equipment {
+  display: block;
+  margin: auto;
+  height: 7rem;
+  margin-bottom: 3rem;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
