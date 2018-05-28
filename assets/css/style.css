@@ -71,6 +71,7 @@ p {
   height: 10rem;
   background-size: contain;
   width: 100%;
+  background-repeat: no-repeat;
 }
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -93,7 +94,7 @@ p {
   .logos-bg {
     background-image: url("../img/logosv.png");
     height: 20rem;
-    background-repeat: no-repeat;
+
   }
 }
 
