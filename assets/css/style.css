@@ -172,7 +172,7 @@ footer.page-footer {
   -moz-border-radius: 0px;
   border-radius: 0px;
   margin-right: 10px;
-  color: #ffffff;
+  color: #009688;
   background-color: none;
   vertical-align: middle;
 }
@@ -182,8 +182,8 @@ footer.page-footer {
 }
 
 .soc-twitter {
-  background-color: #4da7de;
-    /* background-color: white; */
+  /* background-color: #4da7de; */
+    background-color: white;
 }
 .soc-twitter:before {
   content: '\e040';
@@ -194,8 +194,8 @@ footer.page-footer {
 }
 
 .soc-facebook {
-  background-color: #3e5b98;
-    /* background-color: white; */
+  /* background-color: #3e5b98; */
+    background-color: white;
 }
 .soc-facebook:before {
   content: '\e041';
@@ -206,8 +206,8 @@ footer.page-footer {
 }
 
 .soc-youtube {
-  background-color: #e02a20;
-    /* background-color: white; */
+  /* background-color: #e02a20; */
+    background-color: white;
 }
 .soc-youtube:before {
   content: '\e051';
@@ -218,8 +218,8 @@ footer.page-footer {
 }
 
 .soc-whatsapp {
-  background-color: #20B038;
-  /* background-color: white; */
+  /* background-color: #20B038; */
+  background-color: white;
 }
 .soc-whatsapp:before {
   content: '\e01b';
@@ -231,8 +231,8 @@ footer.page-footer {
 }
 
 .soc-instagram {
-  background-color: #405de6;
-    /* background-color: white; */
+  /* background-color: #405de6; */
+    background-color: white;
 }
 .soc-instagram:before {
   content: '\e057';
