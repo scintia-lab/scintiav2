@@ -66,12 +66,10 @@ p {
   margin-bottom: 3rem;
 }
 
-.logos-bg {
-  background-image: url("../img/logos.png");
-  height: 10rem;
-  background-size: contain;
-  width: 100%;
-  background-repeat: no-repeat;
+
+.support-logo {
+  width: auto;
+    height: 80px;
 }
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -92,9 +90,11 @@ p {
     height: auto;
   }
   .logos-bg {
-    background-image: url("../img/logosv.png");
-    height: 20rem;
 
+  }
+  .support-logo {
+    height: 60px;
+    margin-bottom: 20px;
   }
 }
 
@@ -180,50 +180,61 @@ footer.page-footer {
 
 .soc-twitter {
   background-color: #4da7de;
+    /* background-color: white; */
 }
 .soc-twitter:before {
   content: '\e040';
 }
 .soc-twitter:hover {
   background-color: #61bbf2;
+  /* opacity: .5; */
 }
 
 .soc-facebook {
   background-color: #3e5b98;
+    /* background-color: white; */
 }
 .soc-facebook:before {
   content: '\e041';
 }
 .soc-facebook:hover {
   background-color: #526fac;
+  /* opacity: .5; */
 }
 
 .soc-youtube {
   background-color: #e02a20;
+    /* background-color: white; */
 }
 .soc-youtube:before {
   content: '\e051';
 }
 .soc-youtube:hover {
+  /* opacity: .5; */
   background-color: #f43e34;
 }
 
 .soc-whatsapp {
   background-color: #20B038;
+  /* background-color: white; */
 }
 .soc-whatsapp:before {
   content: '\e01b';
 }
 .soc-whatsapp:hover {
   background-color: #34c44c;
+    /* background-color: white; */
+    /* opacity: .5; */
 }
 
 .soc-instagram {
   background-color: #405de6;
+    /* background-color: white; */
 }
 .soc-instagram:before {
   content: '\e057';
 }
 .soc-instagram:hover {
   background-color: #5471fa;
+    /* opacity: .5; */
 }
